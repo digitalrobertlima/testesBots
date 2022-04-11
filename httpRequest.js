@@ -1,3 +1,7 @@
+//Definir URL da API:
+
+let url = "URL_API_AQUI"
+
 function httpRequest(url) {
   let XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
 	let req = new XMLHttpRquest();
